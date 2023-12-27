@@ -1,0 +1,20 @@
+{
+    "name": "whereto",
+    "private": true,
+    "scripts": {
+        "dev": "tsc-watch --onSuccess \"node dist/index.js\""
+    },
+    "devDependencies": {
+        "@tsconfig/node18": "^18.2.2",
+        "@types/haversine": "^1.1.8",
+        "@types/node": "^20.10.5",
+        "tsc-watch": "^6.0.4",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "h3": "^1.9.0",
+        "haversine": "^1.1.1",
+        "listhen": "^1.5.5",
+        "zod": "^3.22.4"
+    }
+}
