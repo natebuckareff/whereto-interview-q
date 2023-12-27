@@ -8,13 +8,17 @@
         "@tsconfig/node18": "^18.2.2",
         "@types/haversine": "^1.1.8",
         "@types/node": "^20.10.5",
+        "@types/stream-json": "^1.7.7",
         "tsc-watch": "^6.0.4",
         "typescript": "^5.3.3"
     },
     "dependencies": {
+        "csv-parse": "^5.5.3",
         "h3": "^1.9.0",
         "haversine": "^1.1.1",
         "listhen": "^1.5.5",
+        "sorted-btree": "^1.8.1",
+        "stream-json": "^1.8.0",
         "zod": "^3.22.4"
     }
 }
